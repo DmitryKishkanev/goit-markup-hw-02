@@ -1,3 +1,14 @@
+:root {
+  --header-color: #212121;
+  --text-color: #757575;
+  --text-header: #ffffff;
+  --accent-color: #2196f3;
+  --primarybackground: #f5f5f5;
+  --secondary-background: #f5f4fa;
+  --additional-background: #2f303a;
+  --ligo-black: #000000;
+}
+
 .page {
   background-color: #f5f5f5;
   color: #212121;
@@ -13,21 +24,21 @@
 
 /* Heder */
 
-.logo:hover,
-.logo:focus {
-  color: #2196f3;
+header .logo {
+  color: #000000;
+}
+
+footer .logo {
+  color: #ffffff;
 }
 
 .web {
   color: #2196f3;
 }
 
-.studio {
-  color: #000000;
-}
-
-.logo-footer {
-  color: #ffffff;
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
 }
 
 .site-nav .link {
