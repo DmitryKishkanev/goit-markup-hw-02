@@ -22,14 +22,9 @@
   text-decoration: none;
 }
 
-/* Heder */
-
+/* Шапка */
 header .logo {
   color: var(--ligo-black);
-}
-
-footer .logo {
-  color: var(--text-header);
 }
 
 .web {
@@ -59,6 +54,7 @@ footer .logo {
   color: var(--accent-color);
 }
 
+/* Герой */
 .hero-text {
   color: var(--text-header);
 }
@@ -71,6 +67,45 @@ footer .logo {
   border: none;
 }
 
+/* Преимущества */
 .hide-title {
   opacity: 0;
+}
+
+.advantages .content {
+  color: var(--text-color);
+}
+
+/* Наша команда */
+.team .speciality {
+  color: var(--text-color);
+}
+
+/* Подвал */
+footer .logo {
+  color: var(--text-header);
+}
+
+address .location {
+  color: var(--text-header);
+}
+
+.address-element .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Портфолио */
+.sorting-buttons button {
+  background-color: var(--secondary-background);
+  border: none;
+}
+
+.sorting-buttons button:hover,
+.sorting-buttons button:focus {
+  color: var(--text-header);
+  background-color: var(--accent-color);
+}
+
+.portfolio-items .project {
+  color: var(--text-color);
 }
