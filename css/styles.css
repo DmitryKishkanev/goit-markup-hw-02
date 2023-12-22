@@ -111,9 +111,13 @@ address .location {
   background-color: var(--accent-color);
 }
 
-.portfolio-item .item {
+.portfolio-items .item {
   color: var(--header-color);
 }
 .portfolio-items .project {
+  color: var(--text-color);
+}
+
+.portfolio-items .project-description {
   color: var(--text-color);
 }
