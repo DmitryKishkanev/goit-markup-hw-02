@@ -13,6 +13,8 @@
 .page {
   background-color: var(--primary-background);
   color: var(--header-color);
+
+  font-family: roboto, sans-serif;
 }
 
 .list {
@@ -26,6 +28,12 @@
 /* Шапка */
 header .logo {
   color: var(--ligo-black);
+  font-family: raleway;
+
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
 }
 
 .web {
@@ -89,6 +97,12 @@ header .logo {
 /* Подвал */
 footer .logo {
   color: var(--text-header);
+  font-family: raleway;
+
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
 }
 
 address .location {
