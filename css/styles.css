@@ -207,7 +207,7 @@ address .location {
   color: var(--header-color);
   background-color: var(--secondary-background);
 
-  text-align: center;
+  font-family: inherit; /*явно унаслеуй шрифт от page*/
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
